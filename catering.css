@@ -1,0 +1,224 @@
+body{
+    
+}
+
+
+#sauced-logo {
+    height:75px;
+    width: 115px;
+    margin-left:15px;
+}
+
+.nav-link {
+    font-size: 32px;
+    font-family: georgia;
+    margin-left:40px;
+    text-align:center;
+}
+
+.social-icon {
+    height:50px;
+    width:50px;
+    margin-top:-10px;
+}
+
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron {
+	background-image:url('images/catering-food/new-office-cater.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:530px;
+	width:100%;
+}
+
+@media screen and (max-width: 991px) {
+  .jumbotron {
+    height:400px;
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .jumbotron {
+    height:300px;
+    width:100%;
+  }
+}
+
+.header{
+    width: 400px;
+    height: 400px;
+    margin-top: -100px;
+}
+
+.contact {
+	margin-top: 110px;
+	z-index: 1;
+	position: fixed;
+	background-color:purple;
+	color: white;
+	width: 200px;
+}
+
+/*.header-img {
+	background-color: #FFFEE6;
+	opacity: 0.6;
+}*/
+
+.responsive {
+    width: 100%;
+}
+
+/***************************   ARTICLE   ******************************/
+
+.my-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.1;
+    background-image: url('images/designs/food-bg-1.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#ribbon {
+    height: auto;
+    width: 100%;
+    margin-top: -75px;
+}
+
+article {
+	text-align: center;
+    margin-top: -30px;
+}
+
+article h1 {
+	font-family: 'Permanent Marker', sans-serif;
+	font-size: 88px;
+	letter-spacing: 4px;
+	color:#830566;
+    text-shadow: 2px 2px black;
+    padding-top: 20px;
+}
+
+article h3 {
+	font-family: 'Acme', sans-serif;
+	letter-spacing: 1px;
+    color: #830566;
+    padding: 50px 0px 100px 0px;
+
+}
+
+
+/****************************   SECTION   ************************************/
+section {
+    text-align: center;
+}
+
+section h2 {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 64px;
+    padding: 40px 0px 40px 0px;
+    text-decoration: underline;
+}
+section h4{
+    text-align: center;
+    font-family: acme;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+ /************************   FOOTER   *******************************/
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    font-size: 40px;
+    color: #E88E27;
+    text-shadow: 2px 2px white;
+    font-family:'Anton', sans-serif;
+    letter-spacing: 5px;
+    padding-top: 20px;
+}
+
+footer h4 {
+    color:white;
+    font-size: 28px;
+    padding-top:10px;
+}
+footer h5 {
+    color: #685959;
+}
+
+footer img {
+    height:50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.footer-mention-button {
+    padding-top: 150px;
+}
+
+#footer-social {
+    margin-top: -10px;
+}
+
+.footer-social {
+    display: inline-block;
+}
+
+
+.copyright {
+    margin-top: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+

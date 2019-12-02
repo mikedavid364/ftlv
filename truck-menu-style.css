@@ -1,0 +1,297 @@
+body {
+
+}
+
+#sauced-logo {
+    height:75px;
+    width: 115px;
+    margin-left:15px;
+}
+
+.nav-link {
+    font-size: 32px;
+    font-family: georgia;
+    margin-left:40px;
+    text-align:center;
+}
+
+.social-icon {
+    height:50px;
+    width:50px;
+    margin-top:-10px;
+}
+
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+}
+
+.responsive {
+    width: 100%;
+}
+
+/********************************   JUMBOTRON   ******************************
+*/
+
+.jumbotron {
+  background-image:url('images/truck-food/porkys.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:700px;
+  width:100%;
+}
+
+@media screen and (max-width: 991px) {
+  .jumbotron {
+    height:600px;
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .jumbotron {
+    height:300px;
+    width:100%;
+  }
+}
+
+/******************************    HEADER   ***************************
+*/
+
+
+header h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+    color:#830566;
+    letter-spacing: 3px;
+    font-size: 88px;
+    text-shadow: 2px 2px black;
+    text-transform: capitalize;
+}
+
+
+/******************************   SECTION   **********************************
+*/
+
+section {
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Permanent Marker', cursive;
+  color: #830566;
+  margin-bottom: 50px;
+}
+
+section img {
+  width: 75%;
+}
+
+section h3 {
+  font-size: 54px;
+  text-decoration: underline;
+}
+
+section h4 {
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+.contact {
+    background-color: #830566;
+    color: white;
+    width: 200px;
+}
+
+
+
+
+
+/*.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}*/
+/*******************************   ARTICLE   ********************************
+*/
+
+
+
+
+/*article {
+	text-align: center;
+	padding-top: 50px;
+	background-color:rgba(135,5,102,0.5);
+
+}
+
+.article-right {
+	border-left: 1px solid #E88E27;
+}
+
+#truck-menu-header {
+	font-family: 'Anton', sans-serif;
+	font-size: 96px;
+	letter-spacing: 8px;
+	color:#E88E27;
+    text-shadow: 2px 2px white;
+	opacity:0.3;
+
+}
+
+#main-eats {
+	color:#E88E27;
+	font-family: 'Anton', sans-serif;
+	font-size: 64px;
+	text-decoration: underline;
+  text-shadow: 2px 2px white;
+}
+
+.menu-items {
+	color: #E88E27;
+	text-align: center;
+  font-family: 'Acme', sans-serif;
+}
+
+.menu-img {
+	height:400px;
+	width:400px;
+	margin-left:300px;
+}*/
+
+/***************************    Section    ******************************
+*/
+/*section {
+    background-color:rgba(255, 255, 255, 0.5);
+    background-image: url('images/fan.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+
+section img {
+    height:300px;
+    width:400px;
+    margin-top: 50px;
+}
+
+
+
+ .gallery {
+    text-align:center;
+ }
+
+ .container1 {
+  position: relative;
+  
+}
+
+ 
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .image1 {
+  opacity: 0.5;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.text1 {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-size: 24px;
+  text-shadow: 2px 2px black;
+}
+*/
+
+
+
+/*
+ *********************************   FOOTER   *******************************/
+
+ footer {
+    text-align: center;
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+footer h1 {
+    color: #E88E27;
+    text-shadow: 1px 1px white;
+    font-family:'Anton', sans-serif;
+    letter-spacing: 5px;
+    padding-top: 20px;
+}
+
+footer h2 {
+    color:white;
+    padding-top:10px;
+}
+
+footer img {
+    height:50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+#footer-mention-button {
+    padding-top: 20px;
+}
+
+#footer-social {
+    margin-top: -10px;
+}
+
+.footer-social {
+    display: inline-block;
+}
+
+footer h4 {
+    color: white;
+}
+
+footer h5 {
+    color: #685959;
+}
+
+.copyright {
+    margin-top: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

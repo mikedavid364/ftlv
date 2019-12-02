@@ -1,0 +1,183 @@
+body {
+  
+}
+
+#sauced-logo {
+    height:75px;
+    width: 115px;
+    margin-left:15px;
+}
+
+.nav-link {
+    font-size: 32px;
+    font-family: georgia;
+    margin-left:40px;
+    text-align:center;
+}
+
+.social-icon {
+    height:50px;
+    width:50px;
+    margin-top:-10px;
+}
+
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+}
+
+/*.responsive {
+    width: 100%;
+}*/
+
+
+/*******************************   JUMBOTRON   ******************************/
+
+.jumbotron {
+    background-image:url('images/sauced-truck.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    width:100%;
+}
+
+@media screen and (max-width: 991px) {
+  .jumbotron {
+    height:400px;
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .jumbotron {
+    height:300px;
+    width:100%;
+  }
+}
+
+
+/********************************   ARTICLE   ****************************/
+
+article {
+    margin-top: -50px;
+    padding-bottom: 100px;
+}
+
+article h2 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color:#830566;
+    letter-spacing: 3px;
+    font-size: 88px;
+    text-shadow: 2px 2px black;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 50px;
+}
+
+article label {
+    font-family: acme;
+    color: #830566;
+    font-size: 24px;
+}
+
+.form {
+    margin-top: 50px;
+    padding: 0px 80px 0px 80px;
+}
+
+.my-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+/*    height: 100%;*/
+    opacity: 0.1;
+}
+
+.contact-img {
+    text-align: center;
+    height: 200px;
+    width: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: #830566;
+    color: white;
+    font-family: acme;
+}
+
+/*****************************   FOOTER   **********************************/
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    font-size: 40px;
+    color: #E88E27;
+    text-shadow: 2px 2px white;
+    font-family:'Anton', sans-serif;
+    letter-spacing: 5px;
+    padding-top: 20px;
+}
+
+footer h4 {
+    color:white;
+    font-size: 28px;
+    padding-top:10px;
+}
+footer h5 {
+    color: #685959;
+}
+
+footer img {
+    height:50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.footer-mention-button {
+    padding-top: 150px;
+}
+
+#footer-social {
+    margin-top: -10px;
+}
+
+.footer-social {
+    display: inline-block;
+}
+
+
+.copyright {
+    margin-top: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
